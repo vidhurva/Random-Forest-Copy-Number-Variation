@@ -30,11 +30,18 @@ Ultimately, the workflow illustrates a suitable method for this research questio
 
 ## Works Cited
 
-Cutler, Adele, et al. “Random Forests.” ​Ensemble Machine Learning,​ 2012, pp. 157–175.
-Fajardo, Karin V. Fuentes, et al. “Detecting False-Positive Signals in Exome Sequencing.” Human Mutation​, vol. 33, no. 4, 2012, pp. 609–613.
-Gambin, Tomasz, et al. “Homozygous and Hemizygous CNV Detection from Exome Sequencing Data in a Mendelian Disease Cohort.” ​Nucleic Acids Research​, 2016.
-Lu, Xiaojie, et al. “Identification of Copy Number Variation-Driven Genes for Liver Cancer via Bioinformatics Analysis.” ​Oncology Reports​, vol. 32, no. 5, 2014, pp. 1845–1852.
-Meyer, Urs A. “Welcome to the Journal of Personalized Medicine: A New Open-Access Platform for Research on Optimal Individual Healthcare.” ​Journal of personalized medicine​ vol. 1,1 1-4. 28 Mar. 2011.
-Onsongo, Getiria, et al. “CNV-RF Is a Random Forest–Based Copy Number Variation Detection Method Using Next-Generation Sequencing.” ​The Journal of Molecular Diagnostics​, vol. 18, no. 6, 2016, pp. 872–881.
-Sedlazeck, Fritz J. “Piercing the Dark Matter: Bioinformatics of Long-Range Sequencing and Mapping.” ​F1000 - Post-Publication Peer Review of the Biomedical Literature,​ 2018.
-Zare, Fatima, et al. “An Evaluation of Copy Number Variation Detection Tools for Cancer Using Whole Exome Sequencing Data.” ​BMC Bioinformatics,​ vol. 18, no. 1, 2017.
+1) Cutler, Adele, et al. “Random Forests.” ​Ensemble Machine Learning,​ 2012, pp. 157–175.
+
+2) Fajardo, Karin V. Fuentes, et al. “Detecting False-Positive Signals in Exome Sequencing.” Human Mutation​, vol. 33, no. 4, 2012, pp. 609–613.
+
+3) Gambin, Tomasz, et al. “Homozygous and Hemizygous CNV Detection from Exome Sequencing Data in a Mendelian Disease Cohort.” ​Nucleic Acids Research​, 2016.
+
+4) Lu, Xiaojie, et al. “Identification of Copy Number Variation-Driven Genes for Liver Cancer via Bioinformatics Analysis.” ​Oncology Reports​, vol. 32, no. 5, 2014, pp. 1845–1852.
+
+5) Meyer, Urs A. “Welcome to the Journal of Personalized Medicine: A New Open-Access Platform for Research on Optimal Individual Healthcare.” ​Journal of personalized medicine​ vol. 1,1 1-4. 28 Mar. 2011.
+
+6) Onsongo, Getiria, et al. “CNV-RF Is a Random Forest–Based Copy Number Variation Detection Method Using Next-Generation Sequencing.” ​The Journal of Molecular Diagnostics​, vol. 18, no. 6, 2016, pp. 872–881.
+
+7) Sedlazeck, Fritz J. “Piercing the Dark Matter: Bioinformatics of Long-Range Sequencing and Mapping.” ​F1000 - Post-Publication Peer Review of the Biomedical Literature,​ 2018.
+
+8) Zare, Fatima, et al. “An Evaluation of Copy Number Variation Detection Tools for Cancer Using Whole Exome Sequencing Data.” ​BMC Bioinformatics,​ vol. 18, no. 1, 2017.
