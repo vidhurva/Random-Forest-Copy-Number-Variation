@@ -7,12 +7,17 @@ Copy Number Variation or CNVs allows a substantial duplication or deletion of ge
 ## Methods/Data
 
 <img width="324" alt="Screen Shot 2019-12-29 at 2 32 07 PM" src="https://user-images.githubusercontent.com/27433542/71561729-3301f680-2a48-11ea-80ab-05f35039efe6.png">
-* Figure 1. This workflow illustrates the CNV-RF algorithm process to find Candidate CNVs (Onsongo, 2016). *
+
+Figure 1. This workflow illustrates the CNV-RF algorithm process to find Candidate CNVs (Onsongo, 2016).
 
 This workflow begins by preprocessing. In preprocessing the data, BWA and BowTie 2 serve as reading aligners, which maps sequence readings (Onsongo 2016). BAM files are converted to pileups, which were then utilized by SAMtools to find any potential CNV candidates (Onsongo 2016). SAM is a Sequence Alignment Map that is used to store the sequence readings from BWA and BowTie 2. BAM is similar but follows a Binary reading format. SAMtools allows one to analyze and utilize information from reads in the SAM format. By using BWA and BowTie 2, the ratio is approximately 1.0, which essentially indicates that there are nearly no mappability problems (Onsongo 2016). Accurate mappability is essential because this mitigates error rates when detecting CNVs. After that, the data continues preprocessing by data smoothing with sliding windows (Onsongo 2016). Data smoothing allows the removal of anomalies in datasets to illustrate more evident trends. Coverage ratios were then scaled and smoothed to average values between 0.9 and 1.1 by a sliding 200-bp window (Onsongo 2016). These preprocessing techniques and tools used to generate these values can improve the accuracy of CNV detection when identifying candidates from CNV-RF.
 After preprocessing, the exons undergo segmentation and detection to identify which segments will proceed to the filtration process (Onsongo 2016). Next, filtration ensures mitigation in mappability issues by discarding track values that have a coverage ratio under 0.9 and above 1.1 (Onsongo 2016). Furthermore, heterozygous and homozygous deletions and duplications undergo filtering. Heterozygous data, which contains two different alleles, are filtered out if the window average coverage is <20x, while homozygous data, which includes two of the same allele, are filtered out if the window average coverage is <20x (Onsongo 2016). This step of the workflow is essential when implementing a CNV-RF algorithm for accurate CNV detection.
 
 ## Random Forest Machine Learning Model
+
+<img width="891" alt="Screen Shot 2019-12-29 at 2 32 25 PM" src="https://user-images.githubusercontent.com/27433542/71561747-7eb4a000-2a48-11ea-80a6-03cccba60ed6.png">
+
+Figure 2. An example of a decision tree classifier involving heterozygous deletion validation (Cutler 2012).
 
 Random Forest classification is performed by detecting whether the heterozygous deletions from the filtration step are false positives or true positives (Onsongo 2016). Only heterozygous deletions undergo the CNV-RF model because NGS data can easily detect homozygous and hemizygous deletions from the coverage ratio requirements (Onsongo 2016). Random Forest is a machine learning model that allows the implementation of multiple decision trees, which enables the classification of data in specific datasets.For example, one method of determining whether a heterozygous deletion is a true or false positive is by deciding if the deletion contains a high amount of polymorphism in genomic regions (Fajardo 2012). If the statement is true, then the deletion is a false positive. If the statement is false, then the statement is a true positive. Note that there are multiple classifications
 Vashisht 4
